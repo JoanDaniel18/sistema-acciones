@@ -1,23 +1,115 @@
-# Flask Template
+# Sistema de Compra y Gestión de Acciones
 
-This sample repo contains the recommended structure for a Python Flask project. In this sample, we use `flask` to build a web application and the `pytest` to run tests.
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
+![Flask](https://img.shields.io/badge/Flask-2.x-lightgrey?logo=flask)
+![MySQL](https://img.shields.io/badge/MySQL-8.x-blue?logo=mysql)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5.x-purple?logo=bootstrap)
 
- For a more in-depth tutorial, see our [Flask tutorial](https://code.visualstudio.com/docs/python/tutorial-flask).
+## Descripción
 
- The code in this repo aims to follow Python style guidelines as outlined in [PEP 8](https://peps.python.org/pep-0008/).
+Este proyecto es una plataforma web para la **gestión y compra de acciones**, orientada tanto a usuarios administradores como a clientes. Permite administrar acciones variables y fijas, dividendos, empresas, compras y usuarios, diferenciando los permisos según el tipo de usuario. Incluye carga de comprobantes, gestión de logos de empresas y visualización de gráficas.
 
-## Running the Sample
+---
 
-To successfully run this example, we recommend the following VS Code extensions:
+## Características
 
-- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
-- [Python Debugger](https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy)
-- [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance) 
+- **CRUD completo** para acciones variables, acciones fijas, dividendos y empresas.
+- **Gestión de usuarios** con roles (administrador y cliente).
+- **Compra de acciones** con carga de comprobante.
+- **Visualización de gráficas** de acciones y dividendos.
+- **Carga y gestión de archivos** (comprobantes y logos).
+- **Interfaz web responsiva** con Bootstrap.
+- **Seguridad**: control de acceso por roles y validaciones.
 
-- Open the template folder in VS Code (**File** > **Open Folder...**)
-- Create a Python virtual environment using the **Python: Create Environment** command found in the Command Palette (**View > Command Palette**). Ensure you install dependencies found in the `pyproject.toml` file
-- Ensure your newly created environment is selected using the **Python: Select Interpreter** command found in the Command Palette
-- Run the app using the Run and Debug view or by pressing `F5`
-- To test your app, ensure you have the dependencies from `dev-requirements.txt` installed in your environment
-- Navigate to the Test Panel to configure your Python test or by triggering the **Python: Configure Tests** command from the Command Palette
-- Run tests in the Test Panel or by clicking the Play Button next to the individual tests in the `test_app.py` file
+---
+
+## Tecnologías Utilizadas
+
+- Python 3.8+
+- Flask
+- Flask-SQLAlchemy
+- Flask-Migrate
+- MySQL
+- Bootstrap 5
+- JavaScript
+
+---
+
+## Estructura del Proyecto
+
+```
+flask-template/
+│
+├── app.py                # Lógica principal y rutas
+├── models.py             # Modelos de la base de datos
+├── config.py             # Configuración de la base de datos
+├── create_user.py        # Script para crear usuarios iniciales
+├── templates/            # Plantillas HTML (interfaz web)
+├── static/               # Archivos estáticos (CSS, JS, imágenes)
+├── uploads/              # Comprobantes y logos subidos
+└── docs/                 # Documentación y reportes
+```
+
+---
+
+## Instalación y Ejecución
+
+1. **Clona el repositorio:**
+    ```sh
+    git clone https://github.com/tuusuario/sistema-acciones.git
+    cd sistema-acciones/flask-template
+    ```
+
+2. **Instala las dependencias:**
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+3. **Configura la base de datos:**
+    - Edita `config.py` con tus credenciales de MySQL.
+
+4. **Inicializa la base de datos:**
+    ```sh
+    flask db upgrade
+    ```
+
+5. **Crea usuarios iniciales:**
+    ```sh
+    python create_user.py
+    ```
+
+6. **Ejecuta la aplicación:**
+    ```sh
+    flask run
+    ```
+
+7. Accede desde tu navegador a [http://localhost:5000](http://localhost:5000)
+
+---
+
+## Capturas de Pantalla
+
+> Agrega aquí imágenes de las principales pantallas de tu sistema.
+
+---
+
+## Contribución
+
+¿Quieres mejorar el proyecto?  
+¡Forkea el repositorio, haz tus cambios y envía un Pull Request!
+
+---
+
+## Licencia
+
+Este proyecto es solo para fines educativos.
+
+---
+
+## Autor
+
+- [Tu Nombre](https://github.com/tuusuario)
+
+---
+
+¿Dudas o sugerencias? ¡Abre un issue en el repositorio!
