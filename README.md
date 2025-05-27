@@ -91,7 +91,8 @@ flask-template/
 
 > Agrega aquí imágenes de las principales pantallas de tu sistema.
 
----
+![acciones_5](https://github.com/user-attachments/assets/238725f9-6e10-437d-95f9-a48f36c60c9a)
+
 
 ## Contribución
 
@@ -107,6 +108,7 @@ Este proyecto es solo para fines educativos.
 ---
 
 ## Autor
+Joan Daniel Rivas Andrade
 
 - [Tu Nombre](https://github.com/tuusuario)
 
