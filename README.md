@@ -112,7 +112,7 @@ Este proyecto es solo para fines educativos.
 ## Autor
 
 
-- [Tu Nombre](https://github.com/JoanDaniel18)
+- [Joan Daniel Rivas Andrade](https://github.com/JoanDaniel18)
 
 ---
 
