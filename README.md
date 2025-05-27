@@ -89,9 +89,11 @@ flask-template/
 
 ## Capturas de Pantalla
 
-> Agrega aquí imágenes de las principales pantallas de tu sistema.
-
 ![acciones_5](https://github.com/user-attachments/assets/238725f9-6e10-437d-95f9-a48f36c60c9a)
+
+![acciones](https://github.com/user-attachments/assets/5e6034e8-8d2f-4d96-a7d3-95cccb01fc35)
+
+![acciones_2](https://github.com/user-attachments/assets/b7a472b3-faa6-46ca-9a52-d31d2a1209c0)
 
 
 ## Contribución
