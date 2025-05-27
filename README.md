@@ -110,9 +110,9 @@ Este proyecto es solo para fines educativos.
 ---
 
 ## Autor
-Joan Daniel Rivas Andrade
 
-- [Tu Nombre](https://github.com/tuusuario)
+
+- [Tu Nombre](https://github.com/JoanDaniel18)
 
 ---
 
